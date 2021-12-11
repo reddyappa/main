@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "fileupload"
+    }
+  },
+  "defaultProject": "fileupload",
+  "cli": {
+    "analytics": "dc58d348-94e7-45c2-9952-4007c88a4b5a"
+  }
 }
