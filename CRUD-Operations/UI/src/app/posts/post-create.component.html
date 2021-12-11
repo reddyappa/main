@@ -1,0 +1,17 @@
+<mat-card>
+    <h1 class="mat-body-2">{{mode}} Post</h1>
+    <form [formGroup]="postForm" (submit)="onsumbit(postForm)">
+        <input type="hidden" formControlName="id">
+        <input type="hidden" formControlName="userId">
+    <div class="example-container">
+        <mat-form-field>
+          <input matInput formControlName="title" placeholder="Title">
+        </mat-form-field>
+      
+        <mat-form-field>
+          <textarea matInput formControlName="body" placeholder="Body"></textarea>
+        </mat-form-field>
+      <button type="submit" mat-raised-button color="accent">Submit</button>
+      </div>
+    </form>
+</mat-card>
